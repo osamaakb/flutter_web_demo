@@ -16,7 +16,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     _controller = ScrollController();
     _controller.addListener(_scrollListener);
     super.initState();
-  }
+  } 
 
   _scrollListener() {
     if (_controller.offset >= _controller.position.maxScrollExtent &&
