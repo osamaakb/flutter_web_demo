@@ -1,6 +1,7 @@
 import 'package:flutter_web/material.dart';
 import 'package:profile_web_demo/profile_screen.dart';
 
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -9,8 +10,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'profile Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        fontFamily: "Open Sans"
       ),
       home: MyHomePage(title: 'Flutter Demo Home Page'),
     );
